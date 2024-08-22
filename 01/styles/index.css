@@ -10,21 +10,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    background: linear-gradient(145deg, #4587d2, #7d53b5);
 }
 
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;  
+    justify-content: center;  /*centraliza horizontal*/
+    align-items: center;  /*centraliza vertical*/
     height: 100%;
 }
 
 .login-box {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 60px;
     border-radius: 10px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     width: 350px;
     height: 500px;
     text-align: center;
